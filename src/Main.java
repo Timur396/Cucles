@@ -36,7 +36,55 @@ public class Main {
         for (int j = 1; j <= 512; j = j * 2) {
             // System.out.println(j);
         }
+        //Задача1.3
 
-//
+        int salary = 29000;
+        int total = 0;
+        int j = 1;
+        while (total < 1_000_000) {
+            total = total + total / 100;
+            total = total + salary;
+            j = j + 1;
+            //System.out.println("Месяц " + j + " сумма накоплений равна " + total + " рублей");
+
+        }
+        int ten = 0;
+        while (ten < 10) {
+            ten = ten + 1;
+            //System.out.println(ten);
+        }
+        for (ten = 10; ten > 0; ten--) {
+            //System.out.println(ten);
+        }
+        int Y = 12_000_000;
+        int birthRute = (17 * Y) / 1000;
+        int mortality = (8 * Y) / 1000;
+        int q = 0;
+        while (q < 10) {
+            q = q + 1;
+            Y = Y + (birthRute - mortality);
+        }
+        //System.out.println(Y);
+
+        //Задание 1.2/2.2/3.2
+        int amount = 15000;
+        int savings = 15000;
+        int i = 1;
+        while (savings < 12_000_000) {
+            savings = savings + savings / (7 * 100);
+            savings = amount + savings;
+            i = i + 1;
+            if (i % 6 == 0 && i < 108) {
+                // System.out.println(" Месяц " + i + " Сумма " + savings);
+            }
+        }
+        int friday = 1;
+        for (; friday < 31; friday = friday + 7) {
+             System.out.println("Сегодня пятница " +friday+". Необходимо подготовить отчет");
+
+        }
+
     }
+
+
 }
