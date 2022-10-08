@@ -78,13 +78,22 @@ public class Main {
                 // System.out.println(" Месяц " + i + " Сумма " + savings);
             }
         }
+        //Задание4.2
         int friday = 1;
         for (; friday < 31; friday = friday + 7) {
-             System.out.println("Сегодня пятница " +friday+". Необходимо подготовить отчет");
+            System.out.println("Сегодня пятница " + friday + ". Необходимо подготовить отчет");
 
         }
-
+        //Задание5.2
+        int twoHundredEars = 200;
+        int oneHundredEars = 100;
+        for (int e = 0; e < 2100; e = e + 79) {
+            if (e > 1800)
+                System.out.println(e);
+            continue;
+            //
+        }
     }
-
-
 }
+
+
