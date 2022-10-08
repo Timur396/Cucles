@@ -84,16 +84,24 @@ public class Main {
             System.out.println("Сегодня пятница " + friday + ". Необходимо подготовить отчет");
 
         }
-        //Задание5.2
-        int twoHundredEars = 200;
-        int oneHundredEars = 100;
-        for (int e = 0; e < 2100; e = e + 79) {
-            if (e > 1800)
-                System.out.println(e);
-            continue;
-            //
+        //Задание1.3
+        int currentYear = 2022;
+        int beginning = currentYear - 200;
+        int ending = currentYear + 100;
+        for (i = beginning; i < ending; i++) {
+            if (i % 79 == 0)
+             System.out.println(i);
         }
+
+        //Задание 2.3
+        int p = 0;
+        for (; p <= 10; p++) {
+            System.out.println("2 * " + p + " = " + (p * 2));
+        }
+
+
     }
 }
+
 
 
