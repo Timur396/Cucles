@@ -91,7 +91,7 @@ public class Main {
             if (e > 1800)
                 System.out.println(e);
             continue;
-            //
+
         }
     }
 }
